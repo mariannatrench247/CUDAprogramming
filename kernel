@@ -1,0 +1,9 @@
+#GPU kernels - programming in CUDA 
+#1.  Allocate memory of the GPU. GPU and CPU memory are physically separate, and the programmer must manage the allocation copies.
+#2.  Copy the memory from the CPU to the GPU.
+#3.  Configure the thread configuration: choose the correct block and grid dimension for the problem.
+#4.  Launch the threads configured.
+#5.  Synchronize the CUDA threads to ensure that the device has completed all its tasks before doing further operations on the GPU memory.
+#6.  Once the threads have completed, memory is copied back from the GPU to the CPU.
+#7.  The GPU memory is freed.
+
